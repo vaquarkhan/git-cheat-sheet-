@@ -1,10 +1,8 @@
 # git-cheetsheet
 
-Taken from http://progit.org/book/
 
 
-====================================================
-=              GETTING GIT REPOSITORY              =
+ ###             GETTING GIT REPOSITORY            =
 ====================================================
 
 Get git:
@@ -27,7 +25,7 @@ jekyll --server --auto
 (then open new window in Terminal)
 
 ====================================================
-=         RECORDING CHANGES TO REPOSITORY          =
+###        RECORDING CHANGES TO REPOSITORY          =
 ====================================================
 
 Check status of files
@@ -70,7 +68,7 @@ $ git mv [old_filename] [new_filename]
 
 
 ====================================================
-=             VIEWING COMMIT HISTORY               =
+###            VIEWING COMMIT HISTORY               =
 ====================================================
 
 View commit history, reverse chronological
@@ -135,7 +133,7 @@ $ gitk
 
 
 ====================================================
-=                  UNDOING THINGS                  =
+###                  UNDOING THINGS                  =
 ====================================================
 
 Remove all .DS_Store
@@ -152,7 +150,7 @@ $ git checkout -- [filename].[ext]
 
 
 ====================================================
-=               WORKING WITH REMOTES               =
+###             WORKING WITH REMOTES               =
 ====================================================
 
 Show your remotes (origin — default name Git gives cloned server)
@@ -190,7 +188,7 @@ $ git remote rm [reference_name]
 
 
 ====================================================
-=                    TAGGING                       =
+###                  TAGGING                       =
 ====================================================
 
 List all tags (alphabetical order)
@@ -219,7 +217,7 @@ $ git push origin --tags
 
 
 ====================================================
-=                   BRANCHING                      =
+###              BRANCHING                      =
 ====================================================
 
 Create branch & switch to it
@@ -243,7 +241,7 @@ $ git mergetool
 
 
 ====================================================
-=                BRANCH MANAGEMENT                 =
+###              BRANCH MANAGEMENT                 =
 ====================================================
 
 List all branches
@@ -261,7 +259,7 @@ $ git branch --no-merged
 
 
 ====================================================
-=                 REMOTE BRANCHES                  =
+###               REMOTE BRANCHES                  =
 ====================================================
 
 Synchronise with remote
@@ -290,7 +288,7 @@ $ git push origin :[branch_name]
 
 
 ====================================================
-=                     REBASING                     =
+###                    REBASING                     =
 ====================================================
 
 Do not rebase commits that you have pushed to a public repository.
@@ -319,9 +317,12 @@ $ git rebase master [branch_name]
 Do not rebase commits that you have pushed to a public repository.
 
 
-====================================================
-=               COMMIT GUIDELINES                  =
+====================================================         
+### COMMIT GUIDELINES                  =
 ====================================================
 
 Check for whitespace
 $ git diff --check
+
+
+http://progit.org/book/
